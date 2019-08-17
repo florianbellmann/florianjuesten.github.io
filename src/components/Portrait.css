@@ -1,0 +1,15 @@
+.portrait-container{
+  margin-right:1vw;
+  width:60vw;
+  margin-left:auto;
+  max-width: 1075px;
+}
+
+
+@media (max-width: 1024px) {
+	.portrait-container {
+    width: 96vw;
+    margin: initial;
+	}
+}
+

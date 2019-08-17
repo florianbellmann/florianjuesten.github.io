@@ -1,0 +1,82 @@
+.introduction {
+	color: #000;
+	font-family: 'Inconsolata', monospace;
+	font-size: 24px;
+	padding: 2rem 3rem;
+	background: #f9f9f9;
+  width: 42vw;
+  max-width: 760px;
+	min-height: 270px;
+	left: 1vw;
+  position: absolute;
+  z-index: 9999;
+}
+
+.introduction h1 {
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-size: 56px;
+	font-weight: 100;
+	letter-spacing: 0;
+}
+.introduction h1 .firstName {
+	display: block;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	letter-spacing: -1px;
+	font-size: 36px;
+}
+.introduction a {
+	display: block;
+	margin-top: 20px;
+	font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+	.introduction {
+    width: 90vw;
+    position: initial;
+    margin-top: -6vh;
+    z-index: 9999;
+	}
+}
+@media (max-width: 768px) {
+  .introduction{
+    font-size: 1rem;
+    width: 90vw;
+    min-height: unset;
+    padding: 1rem 1.5rem;
+  }
+  .introduction h1{
+    font-size:2rem;
+    margin-bottom:0.5rem;
+  }
+  .introduction h1 .firstName{
+    font-size: 1.5rem;
+  }
+  .introduction a{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.Typist .Cursor {
+  display: inline-block;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
