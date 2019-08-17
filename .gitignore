@@ -1,7 +1,0 @@
-node_modules
-public
-.cache
-.DS_Store
-
-package-lock.json
-public
